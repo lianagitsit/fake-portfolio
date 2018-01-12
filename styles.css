@@ -1,0 +1,33 @@
+body { padding-top: 70px; }
+
+hr { 
+    border-width: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.shaped { 
+    border: 1px solid darkslategray;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+ }
+
+#portfolio, #contact { 
+    padding: 50px 20px;
+}
+
+#portfolio { background-color: blueviolet; }
+#contact { background-color: aquamarine; }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    text-decoration: none;
+}
